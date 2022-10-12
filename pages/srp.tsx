@@ -4,7 +4,7 @@ import React from 'react';
 const srp = () => {
   return (
     <>
-      <Script src="https://mbmarin.datgate.com/content/themes/dh5-child-clean/reactapps/srp/index.srp.js"></Script>
+      <Script src="https://stage55.datgate.com/content/reactpress/apps/next/srp/index.js"></Script>
 
       <div id="root"></div>
     </>
