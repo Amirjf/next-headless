@@ -22,8 +22,8 @@ const Home: NextPage = ({ posts }: any) => {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-          {posts.map(({ node }: any) => (
-            <div className={styles.card}>
+          {posts.map(({ node }: any, idx: any) => (
+            <div key={idx} className={styles.card}>
               <Link href={`/blog/` + node.slug} passHref>
                 <h2>{node.title}</h2>
               </Link>
