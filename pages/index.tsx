@@ -31,6 +31,9 @@ const Home: NextPage = ({ posts }: any) => {
               <p>{node.date}</p>
             </div>
           ))}
+          <Link className={styles.card} href="/srp">
+            <h2>SRP</h2>
+          </Link>
         </div>
       </main>
     </div>
